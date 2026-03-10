@@ -1,2 +1,54 @@
-# Object-Brush-Tool-OBT-
-A powerful, native-feeling brush tool for the Multi Theft Auto: San Andreas Map Editor. Stop placing trees, rocks, and grass one by one! This tool allows you to seamlessly paint multiple objects onto your map with a single click, featuring live visual feedback, organic randomizers, and a full undo system.
+# 🖌️ MTA:SA Editor Object Brush Tool
+
+A powerful, native-feeling brush tool for the Multi Theft Auto: San Andreas Map Editor. Stop placing trees, rocks, and grass one by one! 
+This tool allows you to seamlessly paint multiple objects onto your map with a single click, featuring live visual feedback, organic randomizers, and a full undo system.
+
+---
+
+## ✨ Features
+
+* **Paint Objects Instantly:** Spawn multiple objects at once with a simple left-click.
+* **Live Visual Radius:** See exactly where objects will drop with a red 3D cursor ring.
+* **Full Customization:** Adjust object density, radius, base size, and Z-offset on the fly.
+* **Organic Randomizers:** Toggle randomized rotation (0-360°) and size (+/- 25%) to make forests, grass, and rock formations look completely natural.
+* **Undo & Clear:** Made a mistake? Press `Z` to undo your last brush stroke, or use the "Clear All" button to wipe your session.
+
+---
+
+## 📥 Installation
+
+1. Download the latest release from this repository.
+2. Extract the folder and rename it to `obt` (or your preferred resource name).
+3. Place the folder into your MTA server's resource directory: 
+   `server/mods/deathmatch/resources/[editor]/obt`
+4. Make sure your `meta.xml` contains the `client.lua` and `server.lua` files.
+5. Start the Map Editor, then open the console (`F8`) and type: `start obt`.
+
+---
+
+## 🛠️ How to Use
+
+**⚠️ CRUCIAL FIRST STEP:** Because this script uses a secure cloning method to bypass server admin locks, **you must place at least ONE object manually** using the standard Map Editor menu before you start brushing. 
+
+1. **Start the script:** Ensure both the MTA Map Editor (`start editor`) and the brush script (`start obt`) are running.
+2. **Place a Host Object:** Grab *any* object from the Map Editor menu and place it anywhere on your map.
+3. **Open the Brush Menu:** Press **`B`** to toggle the Brush Tool UI and activate your cursor.
+4. **Configure your Brush:** Enter your desired **Object ID** (e.g., `855` for grass). Adjust the sliders for **Radius**, **Density**, **Size**, and **Z-Offset**. Toggle the randomizers if you want natural variation.
+5. **Paint:** Aim at the terrain (look for the red indicator circle) and **Left-Click** to spawn the objects.
+6. **Undo:** Press **`Z`** to undo your last click if you make a mistake.
+
+---
+
+## ⌨️ Controls
+
+| Key | Action |
+| :--- | :--- |
+| **`B`** | Toggle the Brush Menu and activate/deactivate the brush. |
+| **`Left-Click`** | Paint objects onto the map (Hold to continuously paint). |
+| **`Z`** | Undo the last brush stroke. |
+
+---
+
+## 💡 Credits & Acknowledgments
+* Built for the MTA:SA mapping community.
+* EDF cloning methodology inspired by the `amt` and `autoshade` tools to ensure native Map Editor compatibility.
