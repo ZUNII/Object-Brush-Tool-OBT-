@@ -54,3 +54,8 @@ This tool allows you to seamlessly paint multiple objects onto your map with a s
 ## 💡 Credits & Acknowledgments
 * Built for the MTA:SA mapping community.
 * EDF cloning methodology inspired by the `amt` and `autoshade` tools to ensure native Map Editor compatibility.
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=rMRDfcDuhFg">
+    <img src="https://img.youtube.com/vi/rMRDfcDuhFg/0.jpg" alt="MTA:SA Editor Object Brush Tool Showcase" width="600">
+  </a>
+</div>
